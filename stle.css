@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5ff;
+}
+
+/* Navbar */
+.navbar {
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}
+
+/* Main section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e6e6ff;
+}
+
+.hero h1 {
+    color: #1d1d43;
+}
+
+.hero p {
+    color: #555;
+}
+
+.tag {
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* Form */
+.form-card {
+    background-color: white;
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-card label {
+    display: block;
+    margin-top: 15px;
+}
+
+.form-card input,
+.form-card select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+/* Button */
+button {
+    background-color: #6666cc;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4444aa;
+}
+
+/* Features */
+.features {
+    padding: 20px;
+    text-align: center;
+}
+
+.feature-card {
+    background-color: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #333366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Mobile screen */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .form-card {
+        width: 85%;
+    }
+}
